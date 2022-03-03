@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+let ed
+
+function edad() {
+    ed= prompt( "introducir numero")
+    ed= parseInt(ed);
+    if(ed== ""){
+    edad()
+    }
+    if(ed<18){
+    alert("eres menor de edad NO TIENES LICENCIA DE CONDUCIR")
+    }
+    else
+    alert("eres mayor de edad, ya tienes licencia");
+return
+
+}
+edad();
+
+
+
+</script>
+
+
+</body>
+</html>

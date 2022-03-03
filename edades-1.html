@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script>
+
+let edad;
+
+alert("introduce la edad");
+
+function prom(){
+
+edad = prompt("introduzca la edad");
+
+edad = parseInt(edad);
+
+if (edad ==""){
+prom();
+}
+ if(edad<=10){
+alert("eres un niño");
+}
+  else if (edad>10,10<=20){
+alert("eres un joven");
+}
+  else if (edad>20,20<=50){
+alert("eres un adulto");
+}
+ else if(edad<50,50<=80){
+    alert("eres un anciano");
+}
+  else if(edad<80,80<=100){
+alert("ya casi te mueres");
+    }
+  else if(edad>100){
+alert("seguro ya estas muerto");
+}
+
+
+
+}
+
+
+
+prom();
+
+
+</script>
+
+</body>
+</html>
